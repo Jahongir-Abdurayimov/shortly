@@ -1,0 +1,293 @@
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap; 
+  src: url("./fonts/poppinsmedium.woff2") format("woff2"), 
+       url("./fonts/poppinsmedium.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap; 
+  src: url("./fonts/poppinsbold.woff2") format("woff2"), 
+       url("./fonts/poppinsbold.woff") format("woff"); 
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins","Arial",sans-serif;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1140px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.list-unstyle {
+  margin-block: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.site-header {
+  padding-top: 48px;
+  padding-bottom: 50px;
+  
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+}
+.site-logo-link {
+  margin-right: 45px;
+  text-decoration-line: none;
+}
+.site-nav {
+  margin-right: auto;
+}
+
+.site-nav-list {
+  display: flex;
+  gap: 30px;
+}
+.site-nav-link {
+  text-decoration-line: none;
+  color: #9E9AA8;
+  font-size: 15px;
+  font-weight: 700;
+}
+.site-nav-link:hover {
+  color: #34313d;
+}
+.register-list {
+  display: flex;
+  gap: 30px;
+}
+.register-link {
+  text-decoration-line: none;
+  color: #9e9aa8;
+  font-size: 15px;
+  font-weight: 700;
+}
+.sign-up {
+  color: #fff;
+  padding: 9px 24px;
+  border-radius: 28px;
+  background: #2bd0d0;
+  font-weight: 500;
+}
+.sign-up:hover {
+  background-color: #9ae3e3;
+}
+.hero {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-image: url("./images/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 420px)  calc(50% - 170px);
+
+}
+.wrapper-hero-title {
+  width: 565px;
+}
+
+.hero-title {
+  margin: 0 0 5px;
+  color: #34313d;
+  font-size: 80px;
+  line-height: 90px; 
+  letter-spacing: -2px;
+}
+
+.hero-title-desc {
+  margin: 0 0 38px;
+  color: #9e9aa8;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px; 
+  letter-spacing: 0.15px;
+}
+
+.hero-link {
+  margin-bottom: 138px;
+  display: inline-block;
+  text-decoration-line: none;
+}
+
+.hero-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 52px 64px;
+  border-radius: 10px;
+  background: #3a3054 url("./images/heroformbg.png");
+  background-position:calc(50% - 264px) calc(50%)
+  
+}
+
+.hero-form-input {
+  flex-grow: 1;
+  padding: 14px 32px;
+  color: #34313D;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: none;
+}
+
+.hero-form-btn {
+  padding: 16px 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  background: #2BD0D0;
+  border: none;
+}
+
+.hero-form-btn:hover {
+  background-color: #9ae3e3;
+}
+
+.statistics {
+  padding-top: 60px;
+  padding-bottom: 208px;
+  background-color: #eff1f7;
+
+
+}
+
+.wrapper-statistics-title {
+  width: 540px;
+  margin-bottom: 56px;
+  margin-inline: auto;
+}
+
+.statistics-title {
+  margin: 0 0 18px;
+  color: #34313d;
+  text-align: center;
+  font-size: 40px;
+  line-height: 48px; 
+  letter-spacing: -1px;
+}
+
+.statistics-title-desc {
+  margin: 0;
+  color: #9e9aa8;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px; 
+  letter-spacing: 0.123px;
+}
+
+.statistics-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistics-item {
+  position: relative;
+  width: 350px;
+  padding:0 32px 41px 32px;
+}
+
+.statistics-item:nth-child(2) {
+  top: 44px;
+}
+
+.statistics-item:nth-child(3) {
+  top: 88px;
+}
+
+.statistics-item-icon {
+  margin-bottom: 33px;
+}
+
+.statistics-item-title {
+  margin: 0 0 12px;
+  color: #34313d;
+  font-size: 22px;
+}
+
+.statistics-item-title-desc {
+  margin: 0; 
+  color: #9e9aa8;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.site-article {
+  padding-block: 57px;
+  background: #3a3054 url("./images/heroformbg.png");
+  background-position:calc(50% - 264px) calc(50%);
+  text-align: center;
+  
+}
+
+.article-title {
+  margin: 0 0 32px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+}
+
+.article-link {
+  text-decoration-line: none;
+  display: inline-block;
+  margin-inline: auto;
+}
+
+.site-footer {
+  padding-block: 70px;
+  background-color: #232127;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list-title {
+  display: inline-block;
+  margin-bottom: 22px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-item-link {
+  text-decoration-line: none;
+  color: #bfbfbf;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.234px;
+}
+
+.footer-item-link:hover {
+  color: #2bd0d0;
+}
+
+
