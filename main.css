@@ -317,6 +317,9 @@ img {
   letter-spacing: -0.234px;
 }
 
+.footer-item-link:hover {
+  color: #2bd0d0;
+}
 .icon-list {
   display: flex;
   align-items: flex-start;
